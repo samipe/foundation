@@ -27,7 +27,7 @@ export default {
     return {
       pages: [
         {
-          title: "Who we are",
+          title: "who-we-are",
           text_block: true,
           tab_box: false,
           feature_box: false,
@@ -41,30 +41,30 @@ export default {
           }
         },
         {
-          title: "What we do",
+          title: "what-we-do",
           text_block: true,
           tab_box: false,
           feature_box: false,
           data: {
             text: {
-              twitter: true,
+              twitter: false,
               header: "What we do",
               text:
-                '<p> <b>Robot Framework</b> is a generic test automation framework for acceptance testing and acceptance test-driven development (ATDD). It has easy-to-use tabular test data syntax and it utilizes the keyword-driven testing approach. Its testing capabilities can be extended by test libraries implemented either with Python or Java, and users can create new higher-level keywords from existing ones using the same syntax that is used for creating test cases. </p> <p> Robot Framework project is hosted on <a href="https://github.com/robotframework/robotframework" target="_blank">GitHub</a> where you can find further documentation, source code, and issue tracker. Downloads are hosted at <a href="https://pypi.python.org/pypi/robotframework" target="_blank">PyPI</a>. The framework has a rich ecosystem around it consisting of various generic <a href="#libraries">test libraries</a> and <a href="#tools">tools</a> that are developed as separate projects. </p> <p> Robot Framework is operating system and application independent. The core framework is implemented using <a href="http://python.org" target="_blank">Python</a> and runs also on <a href="http://jython.org" target="_blank">Jython</a> (JVM) and <a href="http://ironpython.net" target="_blank">IronPython</a> (.NET). </p> <p> Robot Framework itself is open source software released under <a href="http://www.apache.org/licenses/LICENSE-2.0.html" target="_blank">Apache License 2.0</a>, and most of the libraries and tools in the ecosystem are also open source. The framework was initially developed at <a href="http://networks.nokia.com" target="_blank">Nokia Networks</a> and it is nowadays sponsored by <a href="http://robotframework.org/foundation" target="_blank">Robot Framework Foundation</a>. </p>'
+                "<p>We sponsor the development of Robot Framework with the focus on fixing bugs, reviewing pull requests by the community and making releases. New feature development and sponsoring other projects in the wider Robot Framework ecosystem can also be considered if we are able to collect enough sponsorship money. We also take care of the overall Robot Framework infrastructure including public web sites, email lists and CI servers. Finally, we promote Robot Framework by organizing meetups for users and otherwise. <br> <br>The money for all these activities is collected from <a href='#members'>members</a> as <a href='#how-to-join'>yearly payments. </a></p>"
             }
           }
         },
         {
-          title: "How to join",
+          title: "how-to-join",
           text_block: true,
           tab_box: false,
           feature_box: false,
           data: {
             text: {
-              twitter: true,
+              priceTable: true,
               header: "How to join",
               text:
-                '<p> <b>Robot Framework</b> is a generic test automation framework for acceptance testing and acceptance test-driven development (ATDD). It has easy-to-use tabular test data syntax and it utilizes the keyword-driven testing approach. Its testing capabilities can be extended by test libraries implemented either with Python or Java, and users can create new higher-level keywords from existing ones using the same syntax that is used for creating test cases. </p> <p> Robot Framework project is hosted on <a href="https://github.com/robotframework/robotframework" target="_blank">GitHub</a> where you can find further documentation, source code, and issue tracker. Downloads are hosted at <a href="https://pypi.python.org/pypi/robotframework" target="_blank">PyPI</a>. The framework has a rich ecosystem around it consisting of various generic <a href="#libraries">test libraries</a> and <a href="#tools">tools</a> that are developed as separate projects. </p> <p> Robot Framework is operating system and application independent. The core framework is implemented using <a href="http://python.org" target="_blank">Python</a> and runs also on <a href="http://jython.org" target="_blank">Jython</a> (JVM) and <a href="http://ironpython.net" target="_blank">IronPython</a> (.NET). </p> <p> Robot Framework itself is open source software released under <a href="http://www.apache.org/licenses/LICENSE-2.0.html" target="_blank">Apache License 2.0</a>, and most of the libraries and tools in the ecosystem are also open source. The framework was initially developed at <a href="http://networks.nokia.com" target="_blank">Nokia Networks</a> and it is nowadays sponsored by <a href="http://robotframework.org/foundation" target="_blank">Robot Framework Foundation</a>. </p>'
+                '<p> The main benefit of being a member is assuring the future of Robot Framework. A more concrete benefit is that these member companies and organizations are listed here, making their Robot Framework knowledge or usage more visible for possible new clients, employers and other parties. <br><br> If the company or organization you represent is interested to join or you have any questions related to the membership, please send an email to robotframework-foundation@googlegroups.com and we will get back to you.</p>'
             }
           }
         },
@@ -76,21 +76,21 @@ export default {
           data: {
             text: {
               twitter: true,
-              header: "Who we are",
+              header: "Members",
               text:
                 '<p> <b>Robot Framework</b> is a generic test automation framework for acceptance testing and acceptance test-driven development (ATDD). It has easy-to-use tabular test data syntax and it utilizes the keyword-driven testing approach. Its testing capabilities can be extended by test libraries implemented either with Python or Java, and users can create new higher-level keywords from existing ones using the same syntax that is used for creating test cases. </p> <p> Robot Framework project is hosted on <a href="https://github.com/robotframework/robotframework" target="_blank">GitHub</a> where you can find further documentation, source code, and issue tracker. Downloads are hosted at <a href="https://pypi.python.org/pypi/robotframework" target="_blank">PyPI</a>. The framework has a rich ecosystem around it consisting of various generic <a href="#libraries">test libraries</a> and <a href="#tools">tools</a> that are developed as separate projects. </p> <p> Robot Framework is operating system and application independent. The core framework is implemented using <a href="http://python.org" target="_blank">Python</a> and runs also on <a href="http://jython.org" target="_blank">Jython</a> (JVM) and <a href="http://ironpython.net" target="_blank">IronPython</a> (.NET). </p> <p> Robot Framework itself is open source software released under <a href="http://www.apache.org/licenses/LICENSE-2.0.html" target="_blank">Apache License 2.0</a>, and most of the libraries and tools in the ecosystem are also open source. The framework was initially developed at <a href="http://networks.nokia.com" target="_blank">Nokia Networks</a> and it is nowadays sponsored by <a href="http://robotframework.org/foundation" target="_blank">Robot Framework Foundation</a>. </p>'
             }
           }
         },
         {
-          title: "Contact info",
+          title: "contact-info",
           text_block: true,
           tab_box: false,
           feature_box: false,
           data: {
             text: {
               twitter: true,
-              header: "Who we are",
+              header: "Contact info",
               text:
                 '<p> <b>Robot Framework</b> is a generic test automation framework for acceptance testing and acceptance test-driven development (ATDD). It has easy-to-use tabular test data syntax and it utilizes the keyword-driven testing approach. Its testing capabilities can be extended by test libraries implemented either with Python or Java, and users can create new higher-level keywords from existing ones using the same syntax that is used for creating test cases. </p> <p> Robot Framework project is hosted on <a href="https://github.com/robotframework/robotframework" target="_blank">GitHub</a> where you can find further documentation, source code, and issue tracker. Downloads are hosted at <a href="https://pypi.python.org/pypi/robotframework" target="_blank">PyPI</a>. The framework has a rich ecosystem around it consisting of various generic <a href="#libraries">test libraries</a> and <a href="#tools">tools</a> that are developed as separate projects. </p> <p> Robot Framework is operating system and application independent. The core framework is implemented using <a href="http://python.org" target="_blank">Python</a> and runs also on <a href="http://jython.org" target="_blank">Jython</a> (JVM) and <a href="http://ironpython.net" target="_blank">IronPython</a> (.NET). </p> <p> Robot Framework itself is open source software released under <a href="http://www.apache.org/licenses/LICENSE-2.0.html" target="_blank">Apache License 2.0</a>, and most of the libraries and tools in the ecosystem are also open source. The framework was initially developed at <a href="http://networks.nokia.com" target="_blank">Nokia Networks</a> and it is nowadays sponsored by <a href="http://robotframework.org/foundation" target="_blank">Robot Framework Foundation</a>. </p>'
             }
