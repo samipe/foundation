@@ -14,7 +14,10 @@
      </div>
      <div v-if="data.priceTable == true" class="row order-3 ml-3 justify-content-end">
        <b-table class="col-8 order-3" striped hover :items="items" :fields="fields"></b-table>
-      </div>
+     </div>
+     <div v-if="typeof data.textAfterTable == 'string'" class="row justify-content-end">
+      <div v-html="data.textAfterTable" class="col-8 order-3"/>
+    </div>
   </div>
 </template>
 
@@ -27,12 +30,36 @@ export default {
   },
   data() {
     return {
-      fields: [ 'number_of_users', 'service_providers', 'product_companies' ],
+      fields: ["number_of_users", "service_providers", "product_companies"],
       items: [
-        { isActive: true, age: 40, number_of_users: '1-10', service_providers: '1000€', product_companies: '500€' },
-        { isActive: false, age: 21, number_of_users: '11-50', service_providers: '2000€', product_companies: '1000€' },
-        { isActive: false, age: 89, number_of_users: '51-250', service_providers: '4000€', product_companies: '2000€' },
-        { isActive: true, age: 38, number_of_users: '251-', service_providers: '8000€', product_companies: '4000€' }
+        {
+          isActive: true,
+          age: 40,
+          number_of_users: "1-10",
+          service_providers: "1000€",
+          product_companies: "500€"
+        },
+        {
+          isActive: false,
+          age: 21,
+          number_of_users: "11-50",
+          service_providers: "2000€",
+          product_companies: "1000€"
+        },
+        {
+          isActive: false,
+          age: 89,
+          number_of_users: "51-250",
+          service_providers: "4000€",
+          product_companies: "2000€"
+        },
+        {
+          isActive: true,
+          age: 38,
+          number_of_users: "251-",
+          service_providers: "8000€",
+          product_companies: "4000€"
+        }
       ],
       options: {
         theme: "light",
