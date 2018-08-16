@@ -9,10 +9,12 @@
 
 
  <b-navbar  toggleable="md" fixed="top" type="dark" id="navigation-collapsed" class="d-md-none">
-  <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
+  
+  <b-img :src="require('@/assets/img/ROBOTFW_Mark_White_LOW_cropped.png')" class="" style="height:30px;"  alt="Robot Frameworkg logo"/>
   <b-navbar-brand class="p-0 m-0 d-block d-md-none" href="#">
-    ROBOT FRAMEWORK FOUNDATION<b-img :src="require('@/assets/img/ROBOTFW_Mark_White_LOW_cropped.png')" class="" style="height:30px;"  alt="Robot Frameworkg logo"/>
+    FOUNDATION
   </b-navbar-brand>
+  <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
   <b-collapse is-nav id="nav_collapse">
     <b-navbar-nav class="align-middle">
       <b-nav-item v-for="item in pages" v-if="item.hide_from_nav != true" v-bind:key="item.title" :href="'#'+item.title.toLowerCase()">{{item.title}}</b-nav-item>
